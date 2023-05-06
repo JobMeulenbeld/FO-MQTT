@@ -1,2 +1,1 @@
 include_directories(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/lib/paho_c/include include)
-target_link_libraries(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/lib/paho_c/paho-mqtt3c.dll)
