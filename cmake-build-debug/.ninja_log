@@ -1,4 +1,0 @@
-# ninja log v5
-3	390	7049015807290462	CMakeFiles/F1_MQTT.dir/main.cpp.obj	ac249d0e8a0459ff
-390	486	7049015808230433	F1_MQTT.exe	5add8ba22a45b735
-7	452	7049015375448296	CMakeFiles/F1_MQTT.dir/src/MQTT_Handler.cpp.obj	6e0aa132719cc1ba
