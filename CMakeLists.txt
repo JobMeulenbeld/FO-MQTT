@@ -1,6 +1,4 @@
 cmake_minimum_required(VERSION 3.21)
-project(FO_MQTT VERSION 1.0.1 DESCRIPTION "MQTT handler for general use")
-set(CMAKE_CXX_STANDARD 17)
 
 include_directories(${PROJECT_NAME} lib/paho_c/include)
 add_library(${PROJECT_NAME} STATIC src/MQTT_Handler.cpp include/MQTT_Handler.h)
