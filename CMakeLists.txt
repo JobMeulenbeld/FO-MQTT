@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 3.25)
 
 include_directories(${PROJECT_NAME} lib/paho_c/include)
 add_library(${PROJECT_NAME} STATIC src/MQTT_Handler.cpp include/MQTT_Handler.h)
